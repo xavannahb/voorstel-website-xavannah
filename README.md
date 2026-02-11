@@ -3,15 +3,17 @@
 ## Proces per dag
 
 ### Dag 1 | Dinsdag 3 feb
-**Opdracht**
+**Wat heb ik gedaan?**
 
-Ontwerp en bouw een persoonlijke website waarmee je jezelf voorstelt, waarmee je jouw startniveau overstijgt en waarmee je jouw doelen voor de minor presenteert.
+xxxxx
 
-**Brainstorm**
+**Hoeveel tijd heeft me dat gekost?**
 
-Tijdens het brainstormen ben ik begonnen met allemaal dingen over mijzelf op te schrijven. Ik heb een mindmap gemaakt met al mijn hobbies en intresses. 
+xxx
 
-**Mijn idee**
+**Wat heb ik geleerd?**
+
+**Wat ga ik morgen doen?**
 
 ### Dag 2 | Woensdag 4 feb
 
