@@ -3,21 +3,35 @@
   src: url('/fonts/inter-variableFont_opsz,wght.ttf');
 }
 
-:root{
-  /* Colors */
-  color-scheme: light dark;
-  --headings: light dark (#312b2b,#f8f8f8);
-  --text: light dark (#312b2b,#f8f8f8);
-  --background-color: light dark (#f8f8f8,#312b2b);
-  
+:root {
+  /* HET KLEURENPALET */
+  --headings: #312b2b;
+  --text: #312b2b;
+  --background-color: #f8f8f8;
+
   --border: rgba(15, 23, 42, 0.08);
   --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
   --shadowHover: 0 16px 45px rgba(15, 23, 42, 0.18);
   --radius: 18px;
-  --button: light dark (#d0b3b3,#9c2828);
 
-  /* Styling */
+  --button: blue;
+  --button-hover: green;
+  --button-active: purple;
+
   --border-radius: 1rem; 
+}
+
+@media (prefers-color-scheme:dark) {
+  :root {
+    --headings: #f8f8f8;
+    --text: #f8f8f8;
+    --background-color: #312b2b;
+      
+    --button: green;
+    --button-hover: darkblue;
+    --button-active: lightpink;
+
+    }
 }
 
 /* CSS */
@@ -163,15 +177,16 @@ ul.filters li button{
   border: none;
   padding: 1rem;
   border-radius: var(--border-radius);
+  background-color: var(--button);
 }
 
 ul.filters li button:hover{
-  background: yellowgreen;
+  background: var(--button-hover);
 }
 
 
 ul.filters li button.active{
-  background: blue;
+  background: var(--button-active);
   color: white;
 }
 
