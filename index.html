@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xavannah's Board</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/2.3.1/list.min.js" defer></script>
+    <script src="javascript.js" defer></script>
+
+</head>
+<body id="tegels">
+    <header>
+        <div class="header-container">
+            <h1>Xavannah's Board</h1>
+                <nav>
+                    <ul>
+                        <li><input type="search" class="fuzzy-search" placeholder="Search.."></li>
+                        <li><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#e5e5e0"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 12H20M12 4V20" stroke="e5e5e0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg></li>
+                        <li><img src="images/account.png" alt="Logo"></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    <main>
+        <section>
+            <ul class="filters">
+                <li><button data-filter="all">Alles</button></li>
+                <li><button data-filter="vrije-tijd">Vrije tijd</button></li>
+                <li><button data-filter="cmd">CMD</button></li>
+            </ul>
+            <ul class="container list">
+                <li class="vrije-tijd">
+                    <button commandFor="dialog1" command="show-modal"><img src="images/ikea-stelling-kastje.jpg" alt="ikea stelling kastje"></button>
+                    <dialog id="dialog1">
+                        <img src="images/ikea-stelling-kastje.jpg" alt="ikea stelling kastje">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog1 command=close class="closebutton">X</button>
+                                <h2 class="title">Interieur</h2>
+                                <p class="description">Sinds juli 2023 woon ik op mezelf. Ik vind het heel leuk om bezig te zijn met styling en interieur. Naar mijn mening is je huis nooit af.</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog2" command="show-modal"><img src="images/photobooth-aniek-nikee.jpg" alt="photobooth-aniek-nikee"></button>
+                    <dialog id="dialog2">
+                        <img src="images/photobooth-aniek-nikee.jpg" alt="photobooth-aniek-nikee">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog2 command=close class="closebutton">X</button>
+                                <h2 class="title">Geliefden</h2>
+                                <p class="description">Ik hou ervan om tijd door te brengen met mijn vrienden. Ik weet niet wat ik zonder ze zou moeten.</p>
+                            </div>
+                    </dialog>
+                </li>
+            
+                <li class="vrije-tijd">
+                    <button commandFor="dialog3" command="show-modal"><img src="images/amsterdam-hotel.jpg" alt="amsterdam hotel"></button>
+                    <dialog id="dialog3">
+                        <img src="images/amsterdam-hotel.jpg" alt="amsterdam hotel">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog3 command=close class="closebutton">X</button>
+                                <h2 class="title">Amsterdam</h2>
+                                <p class="description">Ik ben verliefd op de stad Amsterdam. Er is zoveel cultuur.</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="cmd">
+                    <button commandFor="dialog4" command="show-modal"><img src="images/be-happy.jpg" alt="be happy"></button>
+                    <dialog id="dialog4">
+                        <img src="images/be-happy.jpg" alt="be happy">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog4 command=close class="closebutton">X</button>
+                                <h2>Leerdoel 1:</h2>
+                                <!-- <p><strong>This modal dialog has a groovy backdrop!</strong></p> -->
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+            
+                <li class="vrije-tijd">
+                    <button commandFor="dialog5" command="show-modal"><img src="images/amsterdam-west.jpg" alt="amsterdam west"></button>
+                    <dialog id="dialog5">
+                        <img src="images/amsterdam-west.jpg" alt="amsterdam west">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog5 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="cmd">
+                    <button commandFor="dialog6" command="show-modal"><img src="images/louise.jpg" alt="louise"></button>
+                    <dialog id="dialog6">
+                        <img src="images/louise.jpg" alt="louise">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog6 command=close class="closebutton">X</button>
+                                <ul></ul>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog7" command="show-modal"><img src="images/grateful-for-small-things.jpg" alt="grateful for small things"></button>
+                    <dialog id="dialog7">
+                        <img src="images/grateful-for-small-things.jpg" alt="grateful for small things">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog7 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog8" command="show-modal"><img src="images/lunchen.jpg" alt="lunchen"></button>
+                    <dialog id="dialog8">
+                        <img src="images/lunchen.jpg" alt="lunchen">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog8 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="cmd">
+                    <button commandFor="dialog9" command="show-modal"><img src="images/the-little-progress.jpg" alt="the little progress"></button>
+                    <dialog id="dialog9">
+                        <img src="images/the-little-progress.jpg" alt="the little progress">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog9 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog10" command="show-modal"><img src="images/koffie-tentje-skina.jpg" alt="koffie tentje skina"></button>
+                    <dialog id="dialog10">
+                        <img src="images/koffie-tentje-skina.jpg" alt="koffie tentje skina">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog10 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="cmd">
+                    <button commandFor="dialog11" command="show-modal"><img src="images/hond.jpg" alt="hond"></button>
+                    <dialog id="dialog11">
+                        <img src="images/hond.jpg" alt="hond">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog11 command=close class="closebutton">X</button>
+                                <h2>Andere klasgenoten</h2>
+                                <ul></ul>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog12" command="show-modal"><img src="images/slaapkamer.jpg" alt="slaapkamer"></button>
+                    <dialog id="dialog12">
+                        <img src="images/slaapkamer.jpg" alt="slaapkamer">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog12 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="cmd">
+                    <button commandFor="dialog13" command="show-modal"><img src="images/don't-forget.jpg" alt="don't forget"></button>
+                    <dialog id="dialog13">
+                        <img src="images/don't-forget.jpg" alt="don't forget">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog13 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog14" command="show-modal"><img src="images/vietnam-cafe.jpg" alt="vietnam cafe"></button>
+                    <dialog id="dialog14">
+                        <img src="images/vietnam-cafe.jpg" alt="vietnam cafe">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog14 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="cmd">
+                    <button commandFor="dialog15" command="show-modal"><img src="images/nothing-changes-if-nothing-changes.jpg" alt="nothing changes if nothing changes"></button>
+                    <dialog id="dialog15">
+                        <img src="images/nothing-changes-if-nothing-changes.jpg" alt="nothing changes if nothing changes">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog15 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog16" command="show-modal"><img src="images/vliegtuig-uitzicht.jpg" alt="vliegtuig uitzicht"></button>
+                    <dialog id="dialog16">
+                        <img src="images/vliegtuig-uitzicht.jpg" alt="vliegtuig uitzicht">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog16 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+
+                <li class="vrije-tijd">
+                    <button commandFor="dialog17" command="show-modal"><img src="images/amsterdam-west.jpg" alt="amsterdam west"></button>
+                    <dialog id="dialog17">
+                        <img src="images/amsterdam-west.jpg" alt="amsterdam west">
+
+                            <div class="dialog-content">
+                                <button autofocus commandfor=dialog17 command=close class="closebutton">X</button>
+                                <h2>Festivals</h2>
+                                <p>This modal dialog has a groovy backdrop!</p>
+                            </div>
+                    </dialog>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer></footer>
+
+
+    
+</body>
+</html>
