@@ -20,7 +20,7 @@ async function getMinorMensen() {
         let deMinorMensHTML =
         `<li>
             <h2>${deMinorMens.name}</h2>
-            <p>Favoriete dier: ${deMinorMens.fav_animal}</p>
+            <p>🐶 ${deMinorMens.fav_animal}</p>
           </li>`
     
     deLijst.insertAdjacentHTML("beforeend", deMinorMensHTML)
