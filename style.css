@@ -25,7 +25,7 @@
     }
 }
 
-/* CSS */
+/* Algemene CSS */
 * {
   box-sizing: border-box;
 }
@@ -41,7 +41,8 @@ li {
   list-style: none; 
 }
 
-/* HEADER CSS */
+/* HEADER Styling */
+
 header {
   padding: 1em 1em;   
   position: sticky;                
@@ -148,7 +149,9 @@ ul {
 }
 }
 
-/* MAIN Filter buttons */
+/* MAIN section Styling */
+
+/* Filter buttons */
 ul.filters{
   max-width: 1200px;
   margin: 0 auto;
@@ -180,7 +183,6 @@ ul.filters li button.active{
 }
 
 /* Images container */
-
 ul.container {
   display: grid-lanes;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -211,6 +213,7 @@ ul.container li button {
   cursor: pointer;
 }
 
+/* Pop ups */
 dialog[open] {
   background-color: var(--background-color);
   color: var(--text);
@@ -249,7 +252,6 @@ dialog img {
 }
 .filters ul li button{
   font-size: 1rem;
-
 }
  
 }
