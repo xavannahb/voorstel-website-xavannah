@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Inter';
-  src: url('../fonts/Inter-VariableFont_opsz,wght.ttf');
+  src: url('/fonts/inter-variableFont_opsz,wght.ttf');
 }
 
 :root{
@@ -28,7 +28,7 @@
 
 body {
   margin: 0;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   background: var(--background-color);
   color: var(--text);     
 }
