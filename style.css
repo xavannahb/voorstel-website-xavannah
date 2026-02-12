@@ -1,13 +1,11 @@
+/* CSS styling light-mode*/
 :root {
-  --headings: #312b2b;
-  --text: #312b2b;
+  --text: #2c2c2c;
   --background-color: #f8f8f8;
   --background-header-icons: #ffffff;
 
   --border: rgba(15, 23, 42, 0.08);
-  --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
   --shadow-hover: 0 16px 45px rgba(15, 23, 42, 0.18);
-  --radius: 18px;
 
   --button: #e3eae6;            
   --button-hover: #7a9b8e;      
@@ -16,11 +14,11 @@
   --border-radius: 1rem; 
 }
 
+/* CSS Styling dark-mode */
 @media (prefers-color-scheme:dark) {
   :root {
-    --headings: #f8f8f8;
     --text: #f8f8f8;
-    --background-color: #312b2b;
+    --background-color: #2c2c2c;
     --background-header-icons: #f8f8f8;
     }
 }
@@ -170,7 +168,7 @@ ul.filters li button{
 }
 
 ul.filters li button:hover{
-  border: 1px solid var(--button-hover);
+  border: 2px solid var(--button-hover);
   transform: translateY(-3px);
   box-shadow: var(--shadow-hover);
 }
@@ -201,8 +199,7 @@ ul.container li img{
 }
 
 ul.container li img:hover{
-  transform: translateY(-2px);
-  transform: rotateZ(-5deg);
+  transform: translateY(-2px) rotateZ(-5deg);
   box-shadow: var(--shadow-hover);
 }
 
@@ -230,6 +227,7 @@ dialog[open] {
 }
 
 dialog button.closebutton  {
+  color: var(--text);
   font-size: 1rem;
   position: absolute;
   top: 15px;
@@ -244,13 +242,13 @@ dialog img {
 }
 
 @media (width > 37.5em) {
-    dialog[open] {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-      padding: 3rem;
+  dialog[open] {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    padding: 3rem;
 }
-.filters ul li button{
+  ul.filters li button{
   font-size: 1rem;
 }
  
