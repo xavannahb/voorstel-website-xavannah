@@ -1,5 +1,12 @@
 # 🏃‍♀️ Sprint 0
 
+## 📚 Leerdoelen
+
+1. Ik wil leren hoe ik mijn websites minder statisch kan maken door interactieve elementen en dynamische content toe te voegen die zorgen voor meer beleving op een website.
+2. Ik wil leren hoe ik mobiele ontwerpen zo gebruiksvriendelijk mogelijk kan maken door altijd mobile-first te ontwerpen en vanaf daar het ontwerp uit te breiden.
+3. Ik wil mijn kennis van CSS-animaties uitbreiden zodat ik vloeiende en gebruiksvriendelijke animaties kan toepassen die de gebruikerservaring verbeteren.
+4. Ik wil mijn JavaScript-vaardigheden verdiepen door complexere functionaliteiten te bouwen in websites. Ik wil graag interactieve elementen kunnen ontwerpen en beter worden met API's.
+
 ## 📅 Dinsdag 3 feb - Dag 1
 ### Wat heb ik gedaan?
 Ik ben begonnen met een idee verzinnen voor mijn project. Ik heb aan de hand van een mind map een idee bedacht voor mijn ontwerp. Ik ga een Pinterest board namaken met allemaal dingen over mijzelf waar ik de leerdoelen in ga verwerken. Ik ben begonnen met een basis HTML document opzetten en vervolgens schetsen maken om mijn idee uit te werken. 
@@ -30,7 +37,7 @@ Ik ga een workshop volgen over theming en verder met de afbeeldingen uitzoeken v
 
 ## 📅 Donderdag 5 feb - Dag 3
 ### Wat heb ik gedaan?
-Ik ben begonnen met een Workshop theming van Vasilius. Hier legde hij veel dingen uit over de :root van css en over hoe je het kan gebruiken om een theme te geven aan je website. Denk aan light & dark mode of seizoensgebonden thema’s. In de middag moest weer ergens zijn waardoor ik pas later om de middag verder kon. Ik ben bezig geweest met een :root op zetten en de light en dark mode alvast in te stellen op mijn site. 
+Ik ben begonnen met een Workshop theming van Vasilis. Hier legde hij veel dingen uit over de :root van css en over hoe je het kan gebruiken om een theme te geven aan je website. Denk aan light & dark mode of seizoensgebonden thema’s. In de middag moest weer ergens zijn waardoor ik pas later om de middag verder kon. Ik ben bezig geweest met een :root op zetten en de light en dark mode alvast in te stellen op mijn site. 
 
 ### Hoeveel tijd heeft me dat gekost?
 * Workshop volgen: 1 uur
@@ -63,7 +70,7 @@ Verder met de API en de Pop ups van de images maken.
 ### Wat heb ik gedaan?
 Vandaag begonnen we de les met een extra eis. Er moet data vanuit de API over je klasgenoten worden verwerkt op je website. Hierin moest ik nog even kijken naar de mogelijkheden. Er stonden vandaag geen workshops op de planning. Wel heeft Sanne nog een extra uitleg geven over de API en hoe je deze op eenvoudige manier kan inladen. De manier van Sanne kwam voor mij een stuk makkelijker over dus deze heb ik meteen verwerkt in mijn eigen website.
 
-In de middag ben ik verder gegaan met de image pop ups. Ik ben naar Vasilius toe gelopen om te vragen of er echt geen makkelijkere manier was om dit vorm te geven. Hij wees me naar <dialog>. Hier kan je eenvoudig met alleen html een dialog openen en sluiten door aan de buttons de juiste ‘functies’ te geven. Hier kwam ik een heel eind mee omdat ik html een stuk eenvoudiger vindt dat JavaScript. 
+In de middag ben ik verder gegaan met de image pop ups. Ik ben naar Vasilis toe gelopen om te vragen of er echt geen makkelijkere manier was om dit vorm te geven. Hij wees me naar <dialog>. Hier kan je eenvoudig met alleen html een dialog openen en sluiten door aan de buttons de juiste ‘functies’ te geven. Hier kwam ik een heel eind mee omdat ik html een stuk eenvoudiger vindt dat JavaScript. 
 
 ### Hoeveel tijd heeft me dat gekost?
 * Uitleg API: 1 uur
@@ -115,3 +122,26 @@ Hoe makkelijk het is om List.js in je website te verwerken als je het inlaadt va
 Mijn website presenteren.
 
 ## 🏁 Eind website van Sprint 0
+## Website 
+Mijn website is geinspireerd op een pinterestboard. Ik wilde graag mezelf voorstellen aan de hand van fotos en mijn leerdoelen erin verwerken. 
+
+**Light Mode**
+<img width="1440" height="752" alt="Screenshot 2026-02-12 at 09 07 56" src="https://github.com/user-attachments/assets/0a3ee02e-2e23-4fd4-89da-bd1142d688bb" />
+
+**Dark Mode**
+<img width="1440" height="752" alt="Screenshot 2026-02-12 at 09 17 32" src="https://github.com/user-attachments/assets/018b0ef7-e95e-40af-bd4d-0b95fdf04347" />
+
+## 📎 Bronvermelding
+**Afbeeldingen**
+* Pinterest
+
+**Zoekfunctie & filters**
+* List.js | https://listjs.com/docs/search-sort/
+* ChatGPT | prompt 'Kan je mij helpen om classes aan de li te geven om te kunnen filteren tussen de li. Dus als deze geklikt worden dat ze tonen.'
+
+**API**
+* Sanne | Overgenomen wat we met Sanne in de les hebben gemaakt
+* FNFD | https://fdnd.directus.app/items/person
+
+**Dialog**
+* Vasilis | Samen met Vasilis gemaakt
